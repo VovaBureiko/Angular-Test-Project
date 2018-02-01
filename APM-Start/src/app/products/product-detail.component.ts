@@ -3,9 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { IProduct } from '../../api/products/products';
 
 @Component({
-  selector: 'pm-product-detail',
-  templateUrl: './product-detail.component.html',
-  styleUrls: ['./product-detail.component.css']
+  templateUrl: './product-detail.component.html'
 })
 export class ProductDetailComponent implements OnInit {
 
