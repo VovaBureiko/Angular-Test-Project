@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { ProductService } from '../api/products/product.service';
 
 @Component({
   selector: 'pm-root',
@@ -18,7 +17,6 @@ import { ProductService } from '../api/products/product.service';
               </div>
               `,
   styleUrls: ['./app.component.css'],
-  providers: [ProductService]
 })
 
 export class AppComponent {
